@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>RailsApp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 
-<%= yield %>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/profile#">
+  <meta property="fb:app_id" content="656426487730660" /> 
+  <meta property="og:type"   content="profile" /> 
+  <meta property="og:url"    content="http://compair-dtsdwarak.herokuapp.com/" /> 
+  <meta property="og:title"  content="ComPair - Match Peers and Make Pairs" /> 
+  <meta property="og:image"  content="http://data2.whicdn.com/images/38083760/152_vector-couple-kissing-l_thumb.jpg" />
+  <meta property="og:description" content="Use Facebook to compare your friends, match your peers and find out who make a great pair. Sounds fun? Jump right in!"> 
+  <meta property="og:site_name" content="ComPair">
+  	<meta charset="utf-8" />
 
-</body>
+    <!-- Twitter cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://compair-dtsdwarak.herokuapp.com/">
+<meta name="twitter:title" content="ComPair - Match Peers and Make Pairs">
+<meta name="twitter:description" content="Use Facebook to compare your friends, match your peers and find out who make a great pair. Sounds fun? Jump right in!">
+<meta name="twitter:image" content="http://data2.whicdn.com/images/38083760/152_vector-couple-kissing-l_thumb.jpg">
+
+<!-- Google+ -->
+<meta itemprop="name" content="ComPair - Match Peers and Make Pairs">
+<meta itemprop="description" content="Use Facebook to compare your friends, match your peers and find out who make a great pair. Sounds fun? Jump right in!">
+<meta itemprop="image" content="http://data2.whicdn.com/images/38083760/152_vector-couple-kissing-l_thumb.jpg">
+
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/love-icon.png" type="image/x-icon">
+
+  	<!-- Uncomment to make IE8 render like IE7 -->
+  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+
+  	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  	<title><%= content_for?(:title) ? yield(:title) : "ComPair | Match Pairs and Peers" %></title>
+
+  	<%= stylesheet_link_tag    "application" %>
+
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <%= yield %>
+
+    
+    <%= javascript_include_tag "application" %>
+  </body>
 </html>

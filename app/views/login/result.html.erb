@@ -1,0 +1,38 @@
+
+
+<body onload="result_page();" id="result" style="visibility:hidden">
+<figure class="container2"></figure>	
+ <div id="container">    
+
+
+
+    <div id="main">
+      <div id="outer-circle" style="visibility:hidden"> 
+        <div id="inner-circle">
+          <div id="center-circle">
+           <img src="/assets/heart.png" id="content"  alt="heart" title="heart" class="scale" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+<textarea readonly id="comment_body" name="comment[body]" style="margin-top: 60% ; margin-left: 8%; width: 664px; height: 65px; visibility:hidden; text-align: center; "><%= $message %></textarea>
+<br>
+<div id="button_options">
+<button class="btn btn-primary" onclick="post_to_facebook()">Post to my Wall</button>
+<button class="btn btn-danger" onclick="options()">No, I'm afraid to do that</button>
+
+</div> <!-- button_options-->
+    </div>
+
+
+
+  
+  </div> <!-- container ends -->
+
+
+
+
+  </body>

@@ -1,4 +1,13 @@
-RailsApp::Application.routes.draw do
+Compair::Application.routes.draw do
+  get "login/result"
+  post "login/result"
+
+  get "login/landing"
+
+  get "login/index"
+
+  root :to =>   "login#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

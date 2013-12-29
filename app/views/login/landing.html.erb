@@ -1,0 +1,58 @@
+
+<body id='landing' style="visibility:hidden">
+
+
+  <div id="pt-main" class="pt-perspective">
+ 
+
+
+<div id='fb-root'></div>
+	<figure class="container1"></figure>	
+    <article1 id="article">
+    
+	 <div class="example example-countries">
+  
+      <!-- page 1 -->
+      <div id="form-fill"> 
+
+        <!-- FORM ELEMENTS -->
+         <%=form_tag(login_result_path, :id => 'fb_names') do%>
+        <div class="demo">
+
+          <input class="typeahead tt-query" type="text" placeholder="We're fighting for..." autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top; " dir="auto" id="name1" name="name1"> </input> <br> <br> <br>
+
+          <input class="typeahead tt-query" type="text" placeholder="First Person" autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top; " dir="auto" id="name2" name="name2"> </input> <br> <br> <br>
+
+           <input class="typeahead tt-query" type="text" placeholder="Second Person" autocomplete="off" spellcheck="false" style="position: relative; vertical-align: top; " dir="auto" id="name3" name="name3"> </input><br> <br> <br>
+
+           <button class="btn btn-danger btn-large" onclick="leave_landing();"><i class="icon-white icon-heart"></i> ComPair Matches</button>
+
+   
+        </div>
+    <%end%> 
+    <!-- FORM ELEMENTS END -->
+
+
+    </div> <!-- page 1 -->
+
+    
+
+
+
+
+   
+        </div>
+        </article1>
+	<!-- background-color: transparent; -->
+
+
+
+
+  </div> <!-- Main tag gets over -->
+
+ 
+
+</body>
+
+
+</html>
