@@ -1,4 +1,4 @@
-EADME
+README
 ======
 Purpose
 -------
