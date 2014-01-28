@@ -28,12 +28,12 @@ Screenshots
 -----------
 
 **Login Screen** <br>
-![Login Screen][app/assets/images/screen1.png]
+![Login Screen](app/assets/images/screen1.png)
 <br>
 
 **Choosing Person and Suggestions** <br>
-![Login Screen][app/assets/images/screen2.png] <br>
-![Login Screen][app/assets/images/screen3.png] <br>
+![Login Screen](app/assets/images/screen2.png) <br>
+![Login Screen](app/assets/images/screen3.png) <br>
 
 The app compares B with A, C with A and tells you the one who it feels is the best match for A. 
 
