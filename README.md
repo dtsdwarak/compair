@@ -24,7 +24,16 @@ Ah, yes! Log in with your Facebook account. You'll be shown a page with three te
 * **Person A** - 'We're fighting for' - The one for which we're battling
 * **Person B and C** - 'First Person' and 'Second Person' - Two persons who battle for Person A.
 
+Screenshots
+-----------
 
+**Login Screen** <br>
+![Login Screen][app/assets/images/screen1.png]
+<br>
+
+**Choosing Person and Suggestions** <br>
+![Login Screen][app/assets/images/screen2.png] <br>
+![Login Screen][app/assets/images/screen3.png] <br>
 
 The app compares B with A, C with A and tells you the one who it feels is the best match for A. 
 
@@ -37,3 +46,4 @@ You'll be prompted to **post the result in your Facebook Wall.** You may choose 
 * * *
 **Dwarak** <br>
 <http://dwarak.in>
+
